@@ -1,4 +1,31 @@
 <html>
-<head>
+    <head>
+
+
+    </head>
+    <body>
+        <script>
+            numbers = [2,3,4,5,6,7];
+            //document.write(numbers.join('<br/>'));
+            document.write("<Ol>)");
+            numbers.forEach(i, function(){
+                    document.write("<li>" + i + "</li>");
+            });
+            document.write("</ol");
     
-</head>
+            s = "The quick brown fox";
+            arr = s.split(" ");
+            document.write(arr + "<br>");
+    
+            arr2 = arr.map(function(i){return "<li> + i + "</li>;});
+            document.write("<ol>");
+            /*for(n=0; narr2.length; n++)
+            {
+                
+            }*/
+            words = arr2.join("");
+            document.write(words + "</ol>");
+    
+        </script>
+    
+    </body>
